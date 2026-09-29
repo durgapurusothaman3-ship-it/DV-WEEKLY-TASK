@@ -149,6 +149,3 @@ Healthcare-Data-Analysis/
 ├── week_5.py
 └── README.md
 
-**## Conclusion**
-This project demonstrates the process of healthcare data understanding, data cleaning, statistical analysis, and exploratory data visualization.
-The analysis provides insights into patient demographics, medical conditions, admission patterns, billing amounts, and hospital stay duration. These findings can help in better understanding healthcare data and supporting data-driven healthcare analysis.
