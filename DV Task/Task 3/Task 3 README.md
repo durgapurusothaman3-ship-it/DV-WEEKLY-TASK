@@ -1,62 +1,35 @@
-# Week 3 – Shopify Stock Data Understanding, Cleaning & Exploratory Analysis
+# AAPL Stock Visualization & Financial Analysis
 
-## Project Overview
+##  Project Overview
 
-This project focuses on understanding, cleaning, and analyzing Shopify stock data using Python. The analysis mainly focuses on stock price attributes, daily price changes, percentage returns, trading volume, and return distributions.
+This project analyzes **Apple (AAPL) stock data** using Python. It visualizes stock prices, trading volume, moving averages, daily returns, and volatility.
 
-## Objectives
+##  Objectives
 
-- Load and clean stock price data.
-- Analyze Open, High, Low, Close, and Volume attributes.
-- Calculate daily price delta.
-- Calculate daily percentage return.
-- Analyze trading volume trends.
-- Identify anomalous trading days.
-- Summarize stock return distributions.
+- Analyze OHLC stock prices and trading volume.
+- Calculate 20-day and 50-day moving averages.
+- Analyze daily returns using Histogram and KDE.
+- Identify stable and high-volatility periods.
 
-## Data Analysis
+##  Data Analysis
 
-The project includes:
+The dataset contains historical AAPL stock information such as **Date, Open, High, Low, Close, Adjusted Close, and Volume**.
 
-- Loading the Shopify stock dataset.
-- Cleaning price and volume attributes.
-- Handling missing or invalid values.
-- Calculating daily price delta using:
-  
-  `Close - Open`
-
-- Calculating daily percentage return.
-- Analyzing trading volume trends.
-- Identifying unusual or anomalous trading days.
-- Calculating mean, variance, and standard deviation of stock returns.
-
-## Key Attributes
-
-- **Open** – Opening stock price
-- **High** – Highest price during the day
-- **Low** – Lowest price during the day
-- **Close** – Closing stock price
-- **Volume** – Number of shares traded
-
-## Statistical Analysis
-
-The stock return distribution is summarized using:
-
-- Mean
-- Variance
-- Standard Deviation
-
-These measures help understand the overall return and variation in Shopify stock prices.
+The analysis includes:
+- OHLC price trends over time.
+- Trading volume changes.
+- 20-day and 50-day moving averages.
+- Daily return distribution.
+- Rolling volatility to identify stable and high-volatility periods.
 
 ## Technologies Used
 
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
-- Google Colab
+- Jupyter Notebook
 
 ## Conclusion
 
-This project provides an exploratory analysis of Shopify stock data. It helps understand daily stock price movements, percentage returns, trading volume trends, anomalous trading days, and the statistical distribution of stock returns.
+This analysis provides insights into **AAPL stock price trends, return patterns, trading activity, and volatility**, helping understand the overall behavior of the stock during the analyzed period.
